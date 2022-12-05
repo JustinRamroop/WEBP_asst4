@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(199, 228, 253);
+  margin: 0 0 0 0;
+}
+
+/* Responsiveness */
+
+@media (max-width: 800px) {
+  .navbar .header-div {
+    width: 100%;
+  }
+}
+
+/* Fonts */
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "roboto";
+  color: slategrey;
+  margin: 0px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-family: "roboto";
+}
+/* Social Media Icons */
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-github {
+  font-size: 45px;
+  width: fit-content;
+  color: black;
+  padding: 0px;
+}
+
+.fa:hover {
+  color: rgb(141, 17, 42);
+}
+
+/* Header */
+
+#header-title {
+  color: rgb(141, 17, 42);
+}
+
+#header-subtitle {
+  color: white;
+  text-align: right;
+}
+
+/* Buttons */
+
+.btn-danger {
+  background: rgb(141, 17, 42);
+}
+
+#next-button {
+  float: right;
+}
+
+#previous-button {
+  float: left;
+  margin-left: 0%;
+}
+
+/* Footer */
+
+#footer-text {
+  float: right;
+}
+
+/* Source Links */
+
+.source-link {
+  color: black;
+  text-decoration-line: underline;
+  font-size: 16px;
+  font-family: "roboto";
+}
+
+.source-link:hover {
+  color: rgb(141, 17, 42);
+}
+
+.source-notlink {
+  color: black;
+  text-decoration-line: none;
+  font-size: 16px;
+  font-family: "roboto";
+}
+
+.source-list {
+  width: 80%;
+  line-height: 1.4;
+  max-width: 1050px;
+  margin: auto;
+}
